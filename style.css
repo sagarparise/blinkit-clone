@@ -1,0 +1,196 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav
+{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: white;
+}
+nav > #vertical-line
+{
+    border-left: 1px solid #f2f2f2;
+    height: 60px;
+}
+
+.nav-delivery > h5
+{
+  margin-top: 10px;
+  font-weight: 900;
+}
+.nav-delivery > p
+{
+    font-size: 13px;
+}
+#search-bar
+{
+    background-color: #f8f8f8;
+    padding-inline: 20px;
+    border-radius: 15px;
+    border: 1px solid #f2f2f2;
+}
+#search-bar > input
+{
+    width: 40vw;
+    height: 45px;
+    padding-left: 10px;
+    border: none;
+    background-color: transparent;
+}
+.my-cart-btn
+{
+    background-color: #0c831f !important;
+    color: white !important;
+    border-radius: 20px !important;
+}
+.list
+{
+   
+   padding: 10px;
+    width: 88%;
+    margin: auto;
+    white-space: nowrap;
+    overflow-x: scroll;
+    
+}
+.list > img
+{
+    margin-inline: 10px;
+}
+.list::-webkit-scrollbar {
+    display: none;
+}
+#categories-1
+{
+   padding-top: 10px;
+    width: 88%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.categories-2
+{
+    width: 88%;
+    margin: auto;
+    margin-top: 10px;
+}
+.card-container
+{
+  width: 100%;
+  margin-top: 20px;
+  /* padding: 10px; */
+  white-space: nowrap;
+  overflow-x: scroll;
+}
+.my-cards
+{
+    display: inline-block !important;
+    width: 220px;
+    height: 350px;
+    white-space: wrap;
+    border-radius: 15px !important;
+   
+   
+}
+.my-cards > img{
+   display: block;
+    margin: auto;
+}
+.product__w
+{
+    font-size: 13px;
+    color: grey;
+}
+#table-container
+{
+    width: 88%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+td
+{
+    width: 200px;
+    height: 30px;
+   color: #787878;
+   
+}
+#social-media-info,#bt-text
+{
+    width: 88%;
+    margin: auto;
+}
+#social-media-info > p{
+    color: #787878;
+    font-size: 13px;
+}
+#social-icon >i
+{
+   
+    padding: 15px 17px;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+#bt-text > p{
+    margin-inline: 10px;
+    color: #787878;
+    font-size: 15px;
+    font-weight: 400;
+}
+@media screen and (max-width:900px) {
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    #vertical-line,.nav-delivery
+    {
+        display: none;
+    }
+    #search-bar
+    {
+        margin-top: 15px;
+    }
+    .my-cart-btn
+    {
+        padding: 0px;
+        font-size: 13px;
+        font-weight: 400;
+    }
+    #social-media-info
+    {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    #social-icon
+    {
+        margin-top: 20px;
+       
+        
+    }
+    #social-icon > i
+    {
+        padding: 10px;
+    }
+
+    #download-details
+    {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      
+    }
+    
+}
